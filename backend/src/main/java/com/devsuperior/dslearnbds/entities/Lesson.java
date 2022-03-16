@@ -42,7 +42,7 @@ public abstract class Lesson implements Serializable {
 		}
 	)
 	
-	private Set<Enrollment> enrollmensDone = new HashSet<>();
+	private Set<Enrollment> enrollmentsDone = new HashSet<>();
 	
 	public Lesson() {
 	}
@@ -88,7 +88,7 @@ public abstract class Lesson implements Serializable {
 	}
 
 	public Set<Enrollment> getEnrollmensDone() {
-		return enrollmensDone;
+		return enrollmentsDone;
 	}
 
 	public static long getSerialversionuid() {
