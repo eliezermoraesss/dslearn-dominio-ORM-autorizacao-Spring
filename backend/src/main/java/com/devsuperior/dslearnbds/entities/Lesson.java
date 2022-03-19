@@ -97,8 +97,8 @@ public abstract class Lesson implements Serializable {
 		return enrollmentsDone;
 	}
 
-	public static long getSerialversionuid() {
-		return serialVersionUID;
+	public List<Deliver> getDeliveries() {
+		return deliveries;
 	}
 
 	@Override
