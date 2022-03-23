@@ -41,8 +41,8 @@ public class Deliver implements Serializable {
 	@ManyToOne
 	@JoinColumn(name = "lesson_id")
 	private Lesson lesson;
-
-	private Deliver() {
+	
+	public Deliver() {
 	}
 
 	public Deliver(Long id, String uri, Instant moment, DeliverStatus status, String feedback, Integer correctCount,
