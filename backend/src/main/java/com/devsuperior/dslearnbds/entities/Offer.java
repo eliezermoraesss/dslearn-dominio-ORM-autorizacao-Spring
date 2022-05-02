@@ -97,14 +97,14 @@ public class Offer implements Serializable {
 	public List<Topic> getTopics() {
 		return topics;
 	}
+	
+	public List<Resource> getResources() {
+		return resources;
+	}
 
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
-	}
-	
-	public List<Resource> getResources() {
-		return resources;
 	}
 
 	@Override
